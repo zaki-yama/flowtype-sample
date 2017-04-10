@@ -23,3 +23,6 @@ function stringify(value: mixed) {
 }
 
 stringify('foo');
+stringify(3.14);
+stringify(null);
+stringify({});
